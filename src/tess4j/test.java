@@ -10,11 +10,13 @@ public class test {
 		//Creates file instance and references the file in its location
 		//WHere get image from camera??
 		//File imageFile = new File("C:\\Users\\images\\blah.tif");
-		File imageFile = new File("C:\\Users\\Sean\\eclipse-workspace\\DHW\\images\\eurotext.tif");
+		//WHERE HCREAL IS INSERT YOUR COMPUTER NAME THEN EVERYTHING PAST WILL WORK
+		File imageFile = new File("C:\\Users\\hcreal\\git\\DHW\\images\\Southern_Life_in_Southern_Literature_text_page_322.jpg");
 		
 		//Creating a new tesseract instance and setting the data path with the trained data
 		ITesseract instance = new Tesseract();
-		instance.setDatapath("C:\\Users\\Sean\\eclipse-workspace\\DHW\\tessdata"); //<-tessdata data path
+		//WHERE HCREAL IS INSERT YOUR COMPUTER NAME THEN EVERYTHING PAST WILL WORK
+		instance.setDatapath("C:\\Users\\hcreal\\git\\DHW\\tessdata"); //<-tessdata data path
 		
 		//Try catch that runs the OCR on the file/document/camera
 		try {
